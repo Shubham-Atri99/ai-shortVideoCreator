@@ -10,9 +10,9 @@ const DashboardLayout = ({ children }) => {
         <Sidenav />
       </div>
 
-      {/* Main Content Area */}
+    
       <div className="flex-1 ml-64 flex flex-col">
-        {/* Fixed Header */}
+       
         <div className="fixed top-0  w-full right-0 h-16 bg-white shadow z-10">
           <Header />
         </div>
