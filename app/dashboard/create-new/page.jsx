@@ -84,7 +84,7 @@ const Page = () => {
 
       if (res.data.url) {
         const audio = new Audio(res.data.url);
-        audio.play();
+        
       } else {
         alert("No audio URL returned from /api/speech");
       }
